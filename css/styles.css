@@ -703,7 +703,6 @@ background-color: var(--footer-bg-social-link);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 background-color: transparent;
-margin-right: 24px;
 color: var(--background);
 outline: none;
 }
@@ -714,7 +713,6 @@ outline: none;
 
 
 .footer-input::placeholder {
-  font-weight: 400;
 font-size: 12px;
 line-height: 2;
 display: flex;
@@ -725,7 +723,7 @@ color: var(--background);
 }
 
 .footer-btn {
-  width: 165px;
+  min-width: 165px;
   border: transparent;
   color: var(--background);
   background-color: var(--accent-color);
@@ -735,6 +733,7 @@ color: var(--background);
   justify-content: center;
   align-items: center;
   outline: none;
+  margin-left: 24px;
 
   transition: background-color 250ms var(--cubic);
 }
@@ -881,7 +880,6 @@ transition: border-color 250ms var(--cubic);
 
 .modal-textarea::placeholder {
 
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.04em;
@@ -935,7 +933,6 @@ transition: border-color 250ms var(--cubic);
 
 .modal-checkbox-text {
 display: flex;
-font-weight: 400;
 font-size: 12px;
 letter-spacing: 0.04em;
 align-items: center;
@@ -973,6 +970,7 @@ transition: background-color 250ms var(--cubic), fill 250ms var(--cubic);
 
 .modal-check-icon{
   width: 10px;
+  height: 8px;
 }
 
 
@@ -986,12 +984,12 @@ color: var(--accent-color);
 .modal-submit {
 display: flex;
 justify-content: center;
+margin-top: 24px;
 
 }
 
 .modal-btn {
-  margin-top: 24px;
-  width: 169px;
+  min-width: 169px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
