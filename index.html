@@ -24,7 +24,8 @@
             <nav class="header-nav">
                 <a href="./index.html" class="header-logo link">Web<span class="logo-header-studio">Studio</span> </a>
                 <ul class="header-list list">
-                    <li class="header-item"> <a class="header-link studio-link link" href="./index.html"> Studio</a> </li>
+                    <li class="header-item"> <a class="header-link studio-link link" href="./index.html"> Studio</a>
+                    </li>
                     <li class="header-item"> <a class="header-link link" href="./portfolio.html"> Portfolio </a> </li>
                     <li class="header-item"> <a class="header-link link" href=""> Contacts </a> </li>
                 </ul>
@@ -106,7 +107,7 @@
         </section>
 
 
-<!-- Work -->
+        <!-- Work -->
         <section class="work">
             <div class="container work-container">
                 <h2 class="section-title">What are we doing</h2>
@@ -121,7 +122,7 @@
         </section>
 
 
-<!-- Team -->
+        <!-- Team -->
         <section class="team section">
             <div class="container team-container">
 
@@ -317,68 +318,68 @@
             </div>
 
         </section>
-<!-- Customers -->
-<section class="customers section">
-    <h2 class="section-title">
-        Customers
-    </h2>
+        <!-- Customers -->
+        <section class="customers section">
+            <h2 class="section-title">
+                Customers
+            </h2>
 
-    <div class="container customers-container">
-        
-<ul class="customers-list list">
-<li class="customers-item">
-<a class="customers-link link" href="">
-    <svg class="customers-img">
-        <use href="./images/icons.svg#icon-logo-1"></use>
-    </svg>
-</a>
-</li>
+            <div class="container customers-container">
 
-<li class="customers-item">
-<a class="customers-link link" href="">
-    <svg class="customers-img">
-        <use href="./images/icons.svg#icon-logo-2"></use>
-    </svg>
-</a>
-</li>
+                <ul class="customers-list list">
+                    <li class="customers-item">
+                        <a class="customers-link link" href="">
+                            <svg class="customers-img">
+                                <use href="./images/icons.svg#icon-logo-1"></use>
+                            </svg>
+                        </a>
+                    </li>
 
-<li class="customers-item">
+                    <li class="customers-item">
+                        <a class="customers-link link" href="">
+                            <svg class="customers-img">
+                                <use href="./images/icons.svg#icon-logo-2"></use>
+                            </svg>
+                        </a>
+                    </li>
 
-<a class="customers-link link"  href="">
-    <svg class="customers-img">
-        <use href="./images/icons.svg#icon-logo-3"></use>
-    </svg>
-</a>
-</li>
+                    <li class="customers-item">
 
-<li class="customers-item">
-<a class="customers-link link" href="">
-    <svg class="customers-img">
-        <use href="./images/icons.svg#icon-logo-4"></use>
-    </svg>
-</a>
-</li>
+                        <a class="customers-link link" href="">
+                            <svg class="customers-img">
+                                <use href="./images/icons.svg#icon-logo-3"></use>
+                            </svg>
+                        </a>
+                    </li>
 
-<li class="customers-item">
-<a class="customers-link link" href="">
-    <svg class="customers-img">
-        <use href="./images/icons.svg#icon-logo-5"></use>
-    </svg>
-</a>
-</li>
+                    <li class="customers-item">
+                        <a class="customers-link link" href="">
+                            <svg class="customers-img">
+                                <use href="./images/icons.svg#icon-logo-4"></use>
+                            </svg>
+                        </a>
+                    </li>
 
-<li class="customers-item">
-<a class="customers-link link" href="">
-    <svg class="customers-img">
-        <use href="./images/icons.svg#icon-logo-6"></use>
-    </svg>
-</a>
-</li>
-</ul>
+                    <li class="customers-item">
+                        <a class="customers-link link" href="">
+                            <svg class="customers-img">
+                                <use href="./images/icons.svg#icon-logo-5"></use>
+                            </svg>
+                        </a>
+                    </li>
 
-    </div>
+                    <li class="customers-item">
+                        <a class="customers-link link" href="">
+                            <svg class="customers-img">
+                                <use href="./images/icons.svg#icon-logo-6"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
 
-</section>
+            </div>
+
+        </section>
 
     </main>
     <!-- Footer -->
@@ -437,29 +438,106 @@
                 </ul>
 
             </div>
+            <form class="subscribe-footer">
+                <p class="subscribe-title">
+                    Subscribe
+                </p>
+                <div class="footer-form">
+                    <label for="subscribe-name" class="footer-label">
+                        <input type="email" class="footer-input" placeholder="E-mail" name="email" id="subscribe-name">
+                    </label>
+                    <button type="submit" class="footer-btn">Subscribe
+                        <svg class="subscribe-icon">
+                            <use href="./images/icons.svg#icon-footer-icon"> </use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
         </div>
 
     </footer>
-<!-- Backdrop -->
-<div class="backdrop is-hidden" data-modal>
-    
-<div class="modal">
+    <!-- Backdrop -->
 
 
-    
-<button type="button" data-modal-close class="modal-close">
+    <div class="backdrop is-hidden" data-modal>
 
-    <svg class="modal-close-icon">
-        <use href="./images/icons.svg#icon-close-black"></use>
-    </svg>
+        <div class="modal">
 
-</button>
+            <button type="button" data-modal-close class="modal-close">
 
-</div>
+                <svg class="modal-close-icon">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+            <p class="modal-title">Leave your contacts and we will call you back</p>
+
+
+            <form class="modal-form">
+
+
+                <div class="form-wrapper">
+                    <label for="user-name" class="label-name">Name</label>
+                    <input class="modal-input" type="text" name="user-name" id="user-name">
+
+                    <svg class="form-icon">
+                        <use href="./images/icons.svg#icon-person-black"></use>
+                    </svg>
+                </div>
+
+                <div class="form-wrapper">
+                    <label for="user-phone" class="label-name">Phone</label>
+
+                    <input class="modal-input" type="tel" name="user-phone" id="user-phone">
+
+                    <svg class="form-icon">
+                        <use href="./images/icons.svg#icon-phone-black"></use>
+                    </svg>
+
+                </div>
+
+                <div class="form-wrapper">
+                    <label for="user-email" class="label-name">Email</label>
+
+                    <input class="modal-input" type="email" name="user-email" id="user-email">
+
+
+                    <svg class="form-icon">
+                        <use href="./images/icons.svg#icon-email-black"></use>
+                    </svg>
+
+                </div>
+
+                <div class="textarea">
+                    <label for="user-comment" class="label-name">Comment</label>
+                    <textarea name="user-comment" id="user-comment" class="modal-textarea"
+                        placeholder="Text input"></textarea>
+
+                </div>
+
+
+                <div class="modal-checkbox-wrapper">
+                    <input type="checkbox" name="modal-checkbox" id="modal-checkbox"
+                        class="checkbox-icon visually-hidden" value="true">
+                    <label for="modal-checkbox" class="modal-checkbox-text">
+                        <span>
+                            <svg class="modal-check-icon">
+                                <use href="./images/icons.svg#icon-checkbox-icon"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the<a href="" class="checkbox-link">Privacy Policy</a>
+                    </label>
+                </div>
+                <div class="modal-submit">
+                    <button type="submit" class="modal-btn">
+                        Send
+                    </button>
+                </div>
+            </form>
+        </div>
 
 
 
-</div>
+    </div>
 
 
     <script src="./js/modal.js"></script>
